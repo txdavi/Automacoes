@@ -40,6 +40,7 @@ python main.py
 ```
 
 ## 📌 Observações
-- Os anos de escolaridade analisados são 4º e 5º ano
+- O ano de escolaridade analisado é 5º ano de Escolaridade do Ensino Fundamental. Para analisar outro ano de escolaridade, altere a variável `ano_escolaridade` no script.
+- A idade com distorção, nesse caso, seria acima de 12 anos. Caso for alterar o ano de escolaridade, altere também a idade(12) na variável `distorcidos` no script.
 - O ano letivo analisado é 2022. Para atualizar, altere a variável `ano_letivo` no script.
 - Certifique-se de que as datas estejam corretamente formatadas no Excel.
