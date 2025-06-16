@@ -20,8 +20,8 @@ O programa espera um arquivo chamado `base_dados.xlsx` no mesmo diretório, cont
 ## 📊 Como Funciona
 
 1. Lê os dados de um arquivo `.xlsx`;
-2. Calcula a idade dos alunos com base no ano letivo de 2022;
-3. Filtra alunos do 4º ou 5º ano com 11 anos ou mais;
+2. Calcula a idade dos alunos com base no ano letivo;
+3. Filtra alunos com mais de 2 anos de atraso escolar;
 4. Exibe os dados dos alunos com possível distorção idade-série.
 
 ## ▶️ Como Executar
@@ -36,10 +36,10 @@ python main.py
 ```
          Nome  Idade Ano de escolaridade
 0  João Silva     12               4º Ano
-1  Maria Souza    11               5º Ano
+1  Maria Souza    13               5º Ano
 ```
 
 ## 📌 Observações
-
+- Os anos de escolaridade analisados são 4º e 5º ano
 - O ano letivo analisado é 2022. Para atualizar, altere a variável `ano_letivo` no script.
 - Certifique-se de que as datas estejam corretamente formatadas no Excel.
