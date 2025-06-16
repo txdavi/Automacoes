@@ -49,10 +49,10 @@ Este script em Python organiza automaticamente os arquivos de uma pasta selecion
    - Biblioteca `tkinter` (geralmente já vem com o Python).
 
 2. **Executando o Script**:
-   Salve o código em um arquivo chamado `organizador.py` e execute com:
+   Salve o código em um arquivo chamado `organizer.py` e execute com:
 
    ```bash
-   python organizador.py
+   python organizer.py
    ```
 
 3. **Selecione a pasta**:
