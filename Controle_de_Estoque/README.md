@@ -31,7 +31,7 @@ O arquivo Excel deve conter as seguintes colunas:
    pip install -r requirements.txt
    ```
 
-2. Coloque seu arquivo `vendas.xlsx` na mesma pasta do script.
+2. Coloque seu arquivo `produtos.xlsx` na mesma pasta do script.
 
 3. Execute o script Python.
 
