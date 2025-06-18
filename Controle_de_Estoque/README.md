@@ -12,7 +12,7 @@ Este é um projeto simples de automação com Python, ideal para freelancers que
 
 ---
 
-## 📁 Estrutura esperada do arquivo `vendas.xlsx`
+## 📁 Estrutura esperada do arquivo `produtos.xlsx`
 
 O arquivo Excel deve conter as seguintes colunas:
 
