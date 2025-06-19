@@ -4,7 +4,6 @@ Este é um projeto simples de automação em Python que:
 
 - Lê um arquivo Excel com dados de vendas
 - Calcula o total vendido por produto
-- Formata os valores monetários
 - Gera um gráfico de barras com os produtos mais vendidos
 - Exibe os valores formatados em cima de cada barra
 
