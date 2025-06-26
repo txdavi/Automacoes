@@ -44,15 +44,15 @@ webdriver-manager
 
 ## 🚀 Como usar
 
-2. Execute o script principal:
+1. Execute o script principal:
 
 ```bash
 python whatsapp_bot.py
 ```
 
-3. Ao rodar o script, o navegador abrirá o **WhatsApp Web**. Escaneie o QR Code com seu celular.
+2. Ao rodar o script, o navegador abrirá o **WhatsApp Web**. Escaneie o QR Code com seu celular.
 
-4. O bot começará a monitorar as mensagens não lidas automaticamente.
+3. O bot começará a monitorar as mensagens não lidas automaticamente.
 
 ---
 
