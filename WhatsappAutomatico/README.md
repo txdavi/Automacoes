@@ -80,7 +80,7 @@ respostas = {
 
 ## 👨‍💻 Autor
 
-Feito por [Seu Nome] — projeto pessoal com fins de estudo, automação e aprimoramento em Python e Selenium.
+Feito por Davi Teixeira — projeto pessoal com fins de estudo, automação e aprimoramento em Python e Selenium.
 
 ---
 
