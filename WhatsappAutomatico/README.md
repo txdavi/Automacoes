@@ -44,12 +44,6 @@ webdriver-manager
 
 ## 🚀 Como usar
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo
-```
-
 2. Execute o script principal:
 
 ```bash
