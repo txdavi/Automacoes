@@ -59,7 +59,7 @@ Como gerar senha de app no Gmail - > link: https://support.google.com/mail/answe
 
 - Extrai e decodifica o conteúdo HTML
 
-- Localiza a <table> dentro do HTML
+- Localiza a ´<table>´ dentro do HTML
 
 - Converte a tabela em um DataFrame com o pandas
 
