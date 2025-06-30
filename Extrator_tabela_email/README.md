@@ -26,14 +26,14 @@ email-table-extractor/
 
 ## ⚙️ Configuração e Execução
 
-### 1. Instale as dependências
+#### 1. Instale as dependências
 
 pip install -r requirements.txt
 Ou instale diretamente:
 
 pip install pandas beautifulsoup4 python-dotenv chardet lxml openpyxl
 
-2. Crie o arquivo .env
+#### 2. Crie o arquivo .env
 
 Adicione suas credenciais:
 
@@ -45,30 +45,29 @@ EMAIL_PASS=sua_senha_de_app
 
 Como gerar senha de app no Gmail - > link: https://support.google.com/mail/answer/185833
 
-🧠 Como o Script Funciona
+## 🧠 Como o Script Funciona
 
-Carrega as credenciais do .env
+- Carrega as credenciais do .env
 
-Conecta ao servidor IMAP (imap.gmail.com)
+- Conecta ao servidor IMAP (imap.gmail.com)
 
-Acessa a caixa de entrada (INBOX)
+- Acessa a caixa de entrada (INBOX)
 
-Busca mensagens de um remetente específico
+- Busca mensagens de um remetente específico
 
-Seleciona o e-mail mais recente
+- Seleciona o e-mail mais recente
 
-Extrai e decodifica o conteúdo HTML
+- Extrai e decodifica o conteúdo HTML
 
-Localiza a <table> dentro do HTML
+- Localiza a <table> dentro do HTML
 
-Converte a tabela em um DataFrame com o pandas
+- Converte a tabela em um DataFrame com o pandas
 
-Exporta os dados para o arquivo tabela_email.xlsx
+- Exporta os dados para o arquivo tabela_email.xlsx
 
-🛠️ Personalização
+## 🛠️ Personalização
 
 No início do script (main.py), você pode alterar os seguintes parâmetros:
-
 
 IMAP_SERVER = 'imap.gmail.com'       # Servidor IMAP do provedor
 
@@ -76,7 +75,7 @@ MAILBOX = 'INBOX'                    # Caixa onde será feita a busca
 
 REMETENTE = 'remetente@exemplo.com'  # E-mail do remetente a ser filtrado
 
-📤 Exemplo de Saída
+## 📤 Exemplo de Saída
 
 Após execução bem-sucedida, será gerado o arquivo:
 
@@ -84,15 +83,15 @@ Após execução bem-sucedida, será gerado o arquivo:
 
 Contendo a tabela extraída diretamente do e-mail, pronta para análise ou processamento.
 
-📌 Notas Importantes
+## 📌 Notas Importantes
 
-O script extrai apenas a primeira tabela encontrada no corpo HTML do e-mail.
+- O script extrai apenas a primeira tabela encontrada no corpo HTML do e-mail.
 
-Não lê e-mails com anexos, apenas conteúdo HTML com <table>.
+- Não lê e-mails com anexos, apenas conteúdo HTML com <table>.
 
-O código utiliza chardet para lidar com e-mails que não usam codificação UTF-8.
+- O código utiliza chardet para lidar com e-mails que não usam codificação UTF-8.
 
-🤝 Contribuições
+## 🤝 Contribuições
 
 Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar um Pull Request.
 Toda contribuição é bem-vinda!
