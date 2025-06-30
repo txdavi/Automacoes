@@ -59,7 +59,7 @@ Como gerar senha de app no Gmail - > link: https://support.google.com/mail/answe
 
 - Extrai e decodifica o conteúdo HTML
 
-- Localiza a ´<table>´ dentro do HTML
+- Localiza a tabela dentro do HTML
 
 - Converte a tabela em um DataFrame com o pandas
 
@@ -69,11 +69,11 @@ Como gerar senha de app no Gmail - > link: https://support.google.com/mail/answe
 
 No início do script (main.py), você pode alterar os seguintes parâmetros:
 
-IMAP_SERVER = 'imap.gmail.com'       # Servidor IMAP do provedor
+IMAP_SERVER = 'imap.gmail.com' # Servidor IMAP do provedor
 
-MAILBOX = 'INBOX'                    # Caixa onde será feita a busca
+MAILBOX = 'INBOX' # Caixa onde será feita a busca
 
-REMETENTE = 'remetente@exemplo.com'  # E-mail do remetente a ser filtrado
+REMETENTE = 'remetente@exemplo.com' # E-mail do remetente a ser filtrado
 
 ## 📤 Exemplo de Saída
 
