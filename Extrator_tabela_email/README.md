@@ -14,16 +14,6 @@
 
 ---
 
-## 📂 Estrutura do Projeto
-
-email-table-extractor/
-├── main.py # Script principal
-├── .env # Variáveis de ambiente (não subir para o GitHub)
-├── requirements.txt # Lista de dependências
-└── tabela_email.xlsx # Arquivo Excel gerado com os dados da tabela (criado automaticamente)
-
----
-
 ## ⚙️ Configuração e Execução
 
 #### 1. Instale as dependências
@@ -87,7 +77,7 @@ Contendo a tabela extraída diretamente do e-mail, pronta para análise ou proce
 
 - O script extrai apenas a primeira tabela encontrada no corpo HTML do e-mail.
 
-- Não lê e-mails com anexos, apenas conteúdo HTML com <table>.
+- Não lê e-mails com anexos, apenas conteúdo HTML com `<table>`.
 
 - O código utiliza chardet para lidar com e-mails que não usam codificação UTF-8.
 
