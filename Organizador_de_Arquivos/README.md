@@ -85,14 +85,6 @@ Downloads/
 │   └── instalador.exe
 ```
 
----
-
-## 🛠️ Possíveis Melhorias Futuras
-
-- Suporte a extensões personalizadas via entrada do usuário.
-- Interface gráfica completa com botão “Organizar”.
-- Suporte a arquivos com mais de uma extensão (ex: `.tar.gz`).
-- Registro de arquivos movidos em um log.
 
 ---
 
